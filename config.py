@@ -2,7 +2,7 @@
 SPREADSHEET_ID = https://docs.google.com/spreadsheets/d/1YvJTTj6x6UyBN_kZ9sk0IWSfjuGmVQsC6ENoeCWlyDg/edit?pli=1&gid=0#gid=0
 
 # Google Chat webhook URL (use dummy if you don't have one)
-CHAT_WEBHOOK_URL = https://chat.googleapis.com/v1/spaces/AAQAmIvyles/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=0JilMdFxDKQbz-eMBeaa-jxtPKWzILK7QTh46i3A3Cs
+CHAT_WEBHOOK_URL = "https://dummy.com"
 
 # OAuth Credentials (from Google Cloud Console)
 CLIENT_ID = 867129793896-30np6r5hvbase3uqoi1u8no8a4bohgos.apps.googleusercontent.com
