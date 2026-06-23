@@ -1,7 +1,7 @@
-# Google Sheet ID
+# Google Sheet ID (from your sheet's URL)
 SPREADSHEET_ID = https://docs.google.com/spreadsheets/d/1YvJTTj6x6UyBN_kZ9sk0IWSfjuGmVQsC6ENoeCWlyDg/edit?pli=1&gid=0#gid=0
 
-# Google Chat webhook URL
+# Google Chat webhook URL (use dummy if you don't have one)
 CHAT_WEBHOOK_URL = https://chat.googleapis.com/v1/spaces/AAQAmIvyles/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=0JilMdFxDKQbz-eMBeaa-jxtPKWzILK7QTh46i3A3Cs
 
 # OAuth Credentials (from Google Cloud Console)
@@ -15,7 +15,7 @@ USER_SHEET_NAME = "Users"
 # Roles
 ROLES = ["Marketing", "Sales", "PMO", "Management"]
 
-# Visibility rules (Do not change this part)
+# Visibility rules (Do not change)
 VISIBILITY = {
     "Marketing": [
         "Date of lead landed", "Client Name", "Client Contact Number",
