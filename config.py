@@ -1,4 +1,4 @@
-SPREADSHEET_ID = "https://docs.google.com/spreadsheets/d/1YvJTTj6x6UyBN_kZ9sk0IWSfjuGmVQsC6ENoeCWlyDg"
+SPREADSHEET_ID = "1YvJTTj6x6UyBN_kZ9sk0IWSfjuGmVQsC6ENoeCWlyDg"
 CHAT_WEBHOOK_URL = "https://chat.googleapis.com/v1/spaces/AAQAmIvyles/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=0JilMdFxDKQbz-eMBeaa-jxtPKWzILK7QTh46i3A3Cs"
 CLIENT_ID = "867129793896-30np6r5hvbase3uqoi1u8no8a4bohgos.apps.googleusercontent.com"
 CLIENT_SECRET = "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"
