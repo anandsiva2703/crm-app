@@ -14,7 +14,7 @@ def login_with_google():
     st.write("Click the button below to log in with your Google account.")
     params = {
         "client_id": config.CLIENT_ID,
-        "redirect_uri": "https://crm-app-500313.streamlit.app/oauth2callback",
+        "redirect_uri": "https://crm-app-lcos5adn7wivicqe4pmhcr.streamlit.app/oauth2callback",
         "response_type": "code",
         "scope": "https://www.googleapis.com/auth/spreadsheets https://www.googleapis.com/auth/drive.file https://www.googleapis.com/auth/userinfo.email",
         "access_type": "offline",
@@ -36,7 +36,7 @@ if st.session_state.oauth_creds is None:
             "code": code,
             "client_id": config.CLIENT_ID,
             "client_secret": config.CLIENT_SECRET,
-            "redirect_uri": "https://crm-app-500313.streamlit.app/oauth2callback",
+            "redirect_uri": "https://crm-app-lcos5adn7wivicqe4pmhcr.streamlit.app/oauth2callback",
             "grant_type": "authorization_code"
         }
         response = requests.post(token_url, data=data)
